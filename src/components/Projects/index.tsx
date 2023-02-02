@@ -39,7 +39,7 @@ export default function Project({
                 href={image.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group"
+                className="group scroll-mb-16"
             >
                 <div className="overflow-hidden">
                     <Image
@@ -78,7 +78,7 @@ export default function Project({
                                             href={link.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-gray-500 focus-outline focus:ring-blue-500 motion-safe:transition-all"
+                                            className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-gray-600 focus-outline focus:ring-blue-500 motion-safe:transition-all"
                                         >
                                             <span className="sr-only">
                                                 {link.name}

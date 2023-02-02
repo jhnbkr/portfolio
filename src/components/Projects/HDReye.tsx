@@ -6,7 +6,7 @@ import Project, { ProjectImage, ProjectLink } from "components/Projects";
 const image: ProjectImage = {
     data: HDReyeImage,
     alt: "HDReye",
-    url: "https://www.hdreye.app",
+    url: "https://apps.apple.com/us/app/hdreye/id1566721813",
 };
 
 const links: ProjectLink[] = [
@@ -26,7 +26,7 @@ export default function HDReye() {
     return (
         <Project
             name="HDReye"
-            role="Lead Developer"
+            role="Lead Developer & Co-Founder"
             image={image}
             links={links}
         >

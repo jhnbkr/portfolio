@@ -20,7 +20,7 @@ export default function Loblaws() {
     return (
         <Project
             name="Loblaws"
-            role="Senior Developer"
+            role="Lead Developer"
             image={image}
             links={links}
         >

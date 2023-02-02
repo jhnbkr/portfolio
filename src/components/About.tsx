@@ -67,7 +67,7 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                     </Link>
                 </div>
             </div>
-            <section id="intro" className="scroll-mt-20">
+            <section id="intro" className="scroll-mt-16">
                 <div className="border-b border-gray-200">
                     <div className="flex flex-col justify-center mx-auto md:max-w-5xl px-6 py-10 md:px-8 md:py-16 space-y-6 md:space-y-8">
                         <h2 className="text-4xl md:text-5xl md:mb-6 font-bold tracking-tight text-center">
@@ -75,17 +75,20 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                         </h2>
                         <p className="text-xl md:text-2xl text-gray-600">
                             Growing up I was the kid who asked questions. A lot
-                            of questions. Today I&apos;m not much different.
+                            of questions. Today I&apos;m not much different. My
+                            never ending curiosity to understand how everything
+                            works and my passion for games got me started
+                            programming in my early teens.
                         </p>
                         <p className="text-xl md:text-2xl text-gray-600">
                             I excel at understanding situations and
                             collaborating to develop solutions big and small. My
-                            development experiences encompas; backend, frontend,
+                            development experiences include; backend, frontend,
                             application, games, AR/VR, and more.
                         </p>
                         <p className="text-xl md:text-2xl text-gray-600">
-                            Currently, I am a freelance software developer
-                            living in the Toronto area.
+                            Currently, I am a freelance software developer based
+                            in the Toronto area.
                         </p>
                     </div>
                 </div>
