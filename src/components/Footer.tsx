@@ -47,7 +47,7 @@ export default function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={classNames(
-                                    "flex items-center px-2 py-2 rounded-md text-gray-400 focus-outline focus:ring-blue-500 transition-all",
+                                    "flex items-center px-2 py-2 rounded-md text-gray-400 focus-outline focus:ring-blue-500 motion-safe:transition-all",
                                     link.className
                                 )}
                             >

@@ -1,12 +1,12 @@
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import Head from "next/head";
 import { useEffect, useRef } from "react";
 
-import About from "components/content/About";
-import Clients from "components/content/Clients";
-import Contact from "components/content/Contact";
-import Work from "components/content/Work";
+import About from "components/About";
+import Clients from "components/Clients";
+import Contact from "components/Contact";
+import Work from "components/Work";
 import { useNavigation } from "context/NavigationContext";
-import Head from "next/head";
 
 export default function Home() {
     const { setLocation } = useNavigation();

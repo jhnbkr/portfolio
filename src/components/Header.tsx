@@ -6,7 +6,7 @@ export default function Header() {
     const { setIsOpen } = useNavigation();
 
     return (
-        <header className="fixed w-full flex top-0 z-10 h-16 items-center justify-between bg-white px-2 py-2 md:hidden">
+        <header className="sticky w-full flex md:hidden top-0 z-10 h-16 items-center justify-between bg-white px-2 py-2">
             <button
                 type="button"
                 className="inline-flex h-12 w-12 items-center justify-center rounded-md text-gray-600 hover:text-gray-900 focus-outline"

@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <Navigation />
                 <div className="flex flex-1 flex-col md:pl-64">
                     <Header />
-                    <main className="flex-1 mt-16 md:mt-0">
+                    <main className="flex-1">
                         <Component {...pageProps} />
                     </main>
                 </div>

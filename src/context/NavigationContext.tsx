@@ -31,17 +31,15 @@ export function NavigationProvider({ children }: Props) {
     const [location, setLocation] = useState<string | undefined>();
 
     return (
-        <>
-            <NavigationContext.Provider
-                value={{
-                    isOpen,
-                    setIsOpen,
-                    location,
-                    setLocation,
-                }}
-            >
-                {children}
-            </NavigationContext.Provider>
-        </>
+        <NavigationContext.Provider
+            value={{
+                isOpen,
+                setIsOpen,
+                location,
+                setLocation,
+            }}
+        >
+            {children}
+        </NavigationContext.Provider>
     );
 }

@@ -1,9 +1,6 @@
-import GoogleDesignImage from "assets/images/googledesign.jpg";
+import GoogleDesignImage from "assets/images/google-design.jpg";
 import GlobeIcon from "assets/svg/icons/GlobeIcon";
-import Project, {
-    ProjectImage,
-    ProjectLink,
-} from "components/content/Projects";
+import Project, { ProjectImage, ProjectLink } from "components/Projects";
 
 const image: ProjectImage = {
     data: GoogleDesignImage,
@@ -27,7 +24,7 @@ export default function GoogleDesign() {
             image={image}
             links={links}
         >
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris

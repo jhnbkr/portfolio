@@ -10,9 +10,6 @@ module.exports = {
             screens: {
                 print: { raw: "print" },
             },
-            spacing: {
-                22: "5.5rem",
-            },
         },
     },
     plugins: [],

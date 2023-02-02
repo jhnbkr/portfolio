@@ -1,12 +1,9 @@
-import BlastersOfTheUniverseImage from "assets/images/blastersoftheuniverse.jpg";
+import BlastersOfTheUniverseImage from "assets/images/blasters-of-the-universe.jpg";
 import GlobeIcon from "assets/svg/icons/GlobeIcon";
 import OculusIcon from "assets/svg/icons/OculusIcon";
 import PlayStationIcon from "assets/svg/icons/PlayStationIcon";
 import SteamIcon from "assets/svg/icons/SteamIcon";
-import Project, {
-    ProjectImage,
-    ProjectLink,
-} from "components/content/Projects";
+import Project, { ProjectImage, ProjectLink } from "components/Projects";
 
 const image: ProjectImage = {
     data: BlastersOfTheUniverseImage,
@@ -44,15 +41,16 @@ export default function BlastersOfTheUniverse() {
             role="Lead Developer"
             image={image}
             links={links}
+            year="2017 - 2018"
         >
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-600">
                 Blasters of the Universe is the first of its kind, bringing the
                 bullet hell genre into first person VR. Intense gameplay is
                 heavily reliant on physical movement, requiring the player to
                 duck, dodge, twist, turn, and maneuver their way through tons of
                 enemies and hundreds of bullets.
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris

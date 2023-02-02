@@ -1,45 +1,36 @@
-import StoryPlaceImage from "assets/images/storyplace.jpg";
+import HDReyeImage from "assets/images/hdreye.jpg";
 import AppleIcon from "assets/svg/icons/AppleIcon";
 import GlobeIcon from "assets/svg/icons/GlobeIcon";
-import GoogleIcon from "assets/svg/icons/GoogleIcon";
-import Project, {
-    ProjectImage,
-    ProjectLink,
-} from "components/content/Projects";
+import Project, { ProjectImage, ProjectLink } from "components/Projects";
 
 const image: ProjectImage = {
-    data: StoryPlaceImage,
-    alt: "StoryPlace",
-    url: "https://www.storyplace.com",
+    data: HDReyeImage,
+    alt: "HDReye",
+    url: "https://www.hdreye.app",
 };
 
 const links: ProjectLink[] = [
     {
         name: "Website",
-        url: "https://www.storyplace.com",
+        url: "https://www.hdreye.app",
         icon: GlobeIcon,
     },
     {
         name: "iOS",
-        url: "https://apps.apple.com/app/storyplace/id1289523039",
+        url: "https://apps.apple.com/us/app/hdreye/id1566721813",
         icon: AppleIcon,
-    },
-    {
-        name: "Android",
-        url: "https://play.google.com/store/apps/details?id=com.storyplace",
-        icon: GoogleIcon,
     },
 ];
 
-export default function StoryPlace() {
+export default function HDReye() {
     return (
         <Project
-            name="StoryPlace"
+            name="HDReye"
             role="Lead Developer"
             image={image}
             links={links}
         >
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
