@@ -26,13 +26,14 @@ export default function MusiCounts() {
             year="2021"
         >
             <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                MusiCounts is a Canadaian music education charity that believes
+                music can transform the lives of young people.
+            </p>
+            <p className="text-lg text-gray-600">
+                I lead the development behind the rebuild of MusiCounts&apos;
+                online platform. This included a powerful CMS, content strategy,
+                data migration, and design system. MusiCounts is built on top of
+                Wagtail and is highly extensible.
             </p>
         </Project>
     );

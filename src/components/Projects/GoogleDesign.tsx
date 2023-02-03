@@ -23,16 +23,29 @@ export default function GoogleDesign() {
             role="Lead Developer"
             image={image}
             links={links}
-            year="2022"
+            year="2022 - 2023"
         >
             <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Google Design is the home for inspiration and insights that move
+                Google&apos;s product design forward. Get to know the breadth
+                and craft of design and technology at Google.
+            </p>
+            <p className="text-lg text-gray-600">
+                I joined forces with Instrument and Google to reinvision and
+                rebuild the platform. Working closely with Google engineers to
+                ensure the application meets their high standards for
+                accessibility and performance while managing a team of
+                developers.
+            </p>
+            <p className="text-lg text-gray-600">
+                A highly customized CMS and API empowers a sophisticated design
+                system developed in-house that utilizes Google&apos;s design
+                principles. Hundreds of uniquely designed pages were translated
+                into the new design system through a complex migration pipeline.
+            </p>
+            <p className="text-lg text-gray-600">
+                This new experience will be available to the public in the near
+                future.
             </p>
         </Project>
     );

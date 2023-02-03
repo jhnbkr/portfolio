@@ -51,7 +51,7 @@ export default function Project({
                 </div>
             </Link>
 
-            <div className="flex flex-col p-8 pb-4 space-y-4 bg-white">
+            <div className="flex flex-col p-6 pb-2 mD:p-8 mD:pb-4 space-y-4 bg-white">
                 <div>
                     <h3 className="text-3xl font-semibold">{name}</h3>
                     {role && (
@@ -61,9 +61,9 @@ export default function Project({
                     )}
                 </div>
                 {children}
-                <div className="flex flex-row flex-wrap gap-x-4 items-center justify-between">
+                <div className="flex flex-row flex-wrap gap-x-2 items-center justify-between">
                     {year ? (
-                        <p className="text-xl text-gray-500 font-bold">
+                        <p className="text-lg text-gray-500 font-bold">
                             {year}
                         </p>
                     ) : (

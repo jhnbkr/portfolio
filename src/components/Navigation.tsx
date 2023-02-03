@@ -43,13 +43,13 @@ const links: NavigationLink[] = [
         anchor: true,
         icon: BriefcaseIcon,
     },
-    {
-        location: "resume",
-        name: "Resume",
-        url: "/resume",
-        anchor: false,
-        icon: DocumentIcon,
-    },
+    // {
+    //     location: "resume",
+    //     name: "Resume",
+    //     url: "/resume",
+    //     anchor: false,
+    //     icon: DocumentIcon,
+    // },
 ];
 
 export default function Navigation() {

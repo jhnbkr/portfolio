@@ -8,6 +8,7 @@ import Loblaws from "components/Projects/Loblaws";
 import MusiCounts from "components/Projects/MusiCounts";
 import StoryPlace from "components/Projects/StoryPlace";
 import Transpose from "components/Projects/Transpose";
+import Spoonful from "./Projects/DisneySpoonful";
 
 const Work = forwardRef<HTMLElement>((props, ref) => {
     return (
@@ -31,10 +32,11 @@ const Work = forwardRef<HTMLElement>((props, ref) => {
                     <StoryPlace />
                     <HDReye />
                     <MusiCounts />
-                    <Loblaws />
-                    <BlastersOfTheUniverse />
-                    <Transpose />
                     <CapitalOneMarchMadness />
+                    <Transpose />
+                    <BlastersOfTheUniverse />
+                    <Loblaws />
+                    <Spoonful />
                 </div>
             </div>
         </section>

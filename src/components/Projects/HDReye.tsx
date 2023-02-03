@@ -29,16 +29,19 @@ export default function HDReye() {
             role="Lead Developer & Co&#8209;Founder"
             image={image}
             links={links}
-            year="2021"
+            year={`2021 - ${new Date().getFullYear()}`}
         >
             <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                HDReye is the first and only iOS app for creating custom 360°
+                HDRi images for realistic 3D lighting and compositing. HDReye is
+                an essential app for combining 3D animation realistically with
+                footage or capturing lightmaps of any location.
+            </p>
+            <p className="text-lg text-gray-600">
+                My role at HDReye oversees the design and development of
+                infrastructure that powers our application. These include our
+                stitching pipeline, asset management, payments, user management,
+                authentication and more.
             </p>
         </Project>
     );

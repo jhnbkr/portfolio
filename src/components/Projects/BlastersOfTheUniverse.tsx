@@ -36,23 +36,19 @@ export default function BlastersOfTheUniverse() {
             role="Lead Developer"
             image={image}
             links={links}
-            year="2017"
+            year="2016 - 2018"
         >
             <p className="text-lg text-gray-600">
-                Blasters of the Universe is the first of its kind, bringing the
-                bullet hell genre into first person VR. Intense gameplay is
-                heavily reliant on physical movement, requiring the player to
-                duck, dodge, twist, turn, and maneuver their way through tons of
-                enemies and hundreds of bullets.
+                Blasters of the Universe is a first of its kind VR bullet hell
+                game with intense gameplay that is heavily reliant on physical
+                movement.
             </p>
             <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I helped lead the development effort and contributed to many
+                areas of the game; editor tools, enemy behavior, gameplay
+                programming, cross platform integration, PlayStation VR port,
+                real time audio mixing, animation programming, UI, pipeline
+                engineering, and more.
             </p>
         </Project>
     );

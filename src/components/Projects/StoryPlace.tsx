@@ -35,16 +35,17 @@ export default function StoryPlace() {
             role="Lead Developer"
             image={image}
             links={links}
-            year="2018"
+            year="2018 - 2022"
         >
             <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Storyplace is a social platform where you can write, read or
+                listen to stories from people all around the world.
+            </p>
+            <p className="text-lg text-gray-600">
+                In my role I architected and developed StoryPlace&apos;s backend
+                services and helped shape the platform to where it is today. The
+                API is performant, platform agnostic, geographically aware, and
+                highly scalable.
             </p>
         </Project>
     );

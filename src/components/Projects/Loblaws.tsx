@@ -10,7 +10,7 @@ const image: ProjectImage = {
 
 const links: ProjectLink[] = [
     {
-        name: "Websute",
+        name: "Website",
         url: "https://www.loblaws.com",
         icon: GlobeIcon,
     },
@@ -19,20 +19,21 @@ const links: ProjectLink[] = [
 export default function Loblaws() {
     return (
         <Project
-            name="Loblaws"
-            role="Lead Developer"
+            name="Loblaws.com"
+            role="Senior Developer"
             image={image}
             links={links}
-            year="2013"
+            year="2014"
         >
             <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Loblaws is Canada&apos;s largest food distributor and retailer.
+                I joined the Publicis Sapient (then SapientNitro) team to help
+                build Loblaw&apos;s breakout online grocery ordering platform.
+            </p>
+            <p className="text-lg text-gray-600">
+                My roles on this project included developing interfaces and
+                working closely with our backend teams to facilitate a smooth
+                integration.
             </p>
         </Project>
     );
