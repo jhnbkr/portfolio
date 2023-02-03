@@ -25,12 +25,12 @@ export default function Spoonful() {
             links={links}
             year="2012"
         >
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-600">
                 I joined the Disney Interactive team to rethink their Family Fun
                 platform. An online resource for parents of arts & crafts,
                 recipes, and party ideas.
             </p>
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-600">
                 Spoonful was the first platform at Disney to be built on a new
                 CMS. Our team helped define and build the CMS and workflows that
                 would go on to power many Disney online properties for years to

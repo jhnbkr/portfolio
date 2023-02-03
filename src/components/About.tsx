@@ -57,7 +57,7 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                     <Link
                         href="/#intro"
                         scroll={false}
-                        className="hidden md:inline-flex items-center bg-slate-500 hover:bg-slate-600 rounded-full border-none px-6 py-2 text-white text-lg md:text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-blue-500 motion-safe:transition-all"
+                        className="hidden md:inline-flex items-center bg-slate-500 hover:bg-slate-600 rounded-full border-none px-6 py-2 text-white text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-blue-500 motion-safe:transition-all"
                     >
                         Learn more
                         <DownArrowIcon

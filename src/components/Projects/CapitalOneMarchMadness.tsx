@@ -25,7 +25,7 @@ export default function CapitalOneMarchMadness() {
             links={links}
             year="2020"
         >
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-600">
                 A friendly competition between you and{" "}
                 <span className="whitespace-nowrap">Charles Barkley</span>{" "}
                 &#8212;{" "}
@@ -34,7 +34,7 @@ export default function CapitalOneMarchMadness() {
                     game. I sure hope you&apos;ve been practicing&quot;.
                 </span>
             </p>
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-600">
                 Clocking in under 3MB this instant game can be embedded just
                 about anywhere on the web. Built using native web technologies
                 it is incredibly performant, even on the most constrained mobile

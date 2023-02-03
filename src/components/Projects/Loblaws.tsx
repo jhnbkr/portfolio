@@ -25,12 +25,12 @@ export default function Loblaws() {
             links={links}
             year="2014"
         >
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-600">
                 Loblaws is Canada&apos;s largest food distributor and retailer.
                 I joined the Publicis Sapient (then SapientNitro) team to help
                 build Loblaw&apos;s breakout online grocery ordering platform.
             </p>
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-600">
                 My roles on this project included developing interfaces and
                 working closely with our backend teams to facilitate a smooth
                 integration.

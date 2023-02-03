@@ -63,7 +63,7 @@ export default function Project({
                 {children}
                 <div className="flex flex-row flex-wrap gap-x-2 items-center justify-between">
                     {year ? (
-                        <p className="text-lg text-gray-500 font-bold">
+                        <p className="text-xl text-gray-500 font-bold">
                             {year}
                         </p>
                     ) : (
