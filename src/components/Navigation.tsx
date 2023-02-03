@@ -147,7 +147,7 @@ function FlyoutNavigation() {
                                                                 link.location ==
                                                                     location
                                                                     ? "text-gray-500"
-                                                                    : "text-gray-400 group-hover:text-gray-600",
+                                                                    : "text-gray-400 group-hover:text-gray-500",
                                                                 "mr-4 flex-shrink-0 h-8 w-8 motion-safe:transition-all"
                                                             )}
                                                             aria-hidden="true"
@@ -204,7 +204,7 @@ function StaticNavigation() {
                                                 className={classNames(
                                                     link.location == location
                                                         ? "text-gray-500"
-                                                        : "text-gray-400 group-hover:text-gray-600 motion-safe:transition-all",
+                                                        : "text-gray-400 group-hover:text-gray-500 motion-safe:transition-all",
                                                     "mr-4 flex-shrink-0 h-8 w-8"
                                                 )}
                                                 aria-hidden="true"

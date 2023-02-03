@@ -23,6 +23,7 @@ export default function MusiCounts() {
             role="Lead Developer"
             image={image}
             links={links}
+            year="2021"
         >
             <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -61,9 +61,11 @@ export default function Project({
                     )}
                 </div>
                 {children}
-                <div className="flex items-center justify-between">
+                <div className="flex flex-row flex-wrap gap-x-4 items-center justify-between">
                     {year ? (
-                        <p className="text-lg text-gray-500">{year}</p>
+                        <p className="text-xl text-gray-500 font-bold">
+                            {year}
+                        </p>
                     ) : (
                         <span>
                             {/* Ensure there is an element to justify between */}

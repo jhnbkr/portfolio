@@ -35,6 +35,7 @@ export default function Transpose() {
             role="Lead Developer"
             image={image}
             links={links}
+            year="2018"
         >
             <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

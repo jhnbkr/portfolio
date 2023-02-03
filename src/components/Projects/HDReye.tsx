@@ -26,9 +26,10 @@ export default function HDReye() {
     return (
         <Project
             name="HDReye"
-            role="Lead Developer & Co-Founder"
+            role="Lead Developer & Co&#8209;Founder"
             image={image}
             links={links}
+            year="2021"
         >
             <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

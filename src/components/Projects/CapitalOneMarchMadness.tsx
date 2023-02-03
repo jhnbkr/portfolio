@@ -5,13 +5,13 @@ import Project, { ProjectImage, ProjectLink } from "components/Projects";
 const image: ProjectImage = {
     data: CapitalOneMarchMadnessImage,
     alt: "Capital One | March Madness",
-    url: "https://www.todo.example",
+    url: "https://horse.johnbaker.ca",
 };
 
 const links: ProjectLink[] = [
     {
         name: "Website",
-        url: "https://www.todo.example",
+        url: "https://horse.johnbaker.ca",
         icon: GlobeIcon,
     },
 ];
@@ -23,6 +23,7 @@ export default function CapitalOneMarchMadness() {
             role="Lead Developer"
             image={image}
             links={links}
+            year="2020"
         >
             <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

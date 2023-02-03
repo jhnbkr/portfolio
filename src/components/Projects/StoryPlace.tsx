@@ -1,6 +1,5 @@
 import StoryPlaceImage from "assets/images/storyplace.jpg";
 import AppleIcon from "assets/svg/icons/AppleIcon";
-import DocumentIcon from "assets/svg/icons/DocumentIcon";
 import GlobeIcon from "assets/svg/icons/GlobeIcon";
 import GoogleIcon from "assets/svg/icons/GoogleIcon";
 import Project, { ProjectImage, ProjectLink } from "components/Projects";
@@ -27,11 +26,6 @@ const links: ProjectLink[] = [
         url: "https://play.google.com/store/apps/details?id=com.storyplace",
         icon: GoogleIcon,
     },
-    {
-        name: "API Documentation",
-        url: "https://docs.storyplace.com",
-        icon: DocumentIcon,
-    },
 ];
 
 export default function StoryPlace() {
@@ -41,6 +35,7 @@ export default function StoryPlace() {
             role="Lead Developer"
             image={image}
             links={links}
+            year="2018"
         >
             <p className="text-lg text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

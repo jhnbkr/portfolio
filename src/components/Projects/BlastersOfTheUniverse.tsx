@@ -8,15 +8,10 @@ import Project, { ProjectImage, ProjectLink } from "components/Projects";
 const image: ProjectImage = {
     data: BlastersOfTheUniverseImage,
     alt: "Blasters of the Universe",
-    url: "https://www.secretlocation.com/games/blasters",
+    url: "https://store.steampowered.com/app/490490/Blasters_of_the_Universe",
 };
 
 const links: ProjectLink[] = [
-    {
-        name: "Website",
-        url: "https://www.secretlocation.com/games/blasters",
-        icon: GlobeIcon,
-    },
     {
         name: "Steam",
         url: "https://store.steampowered.com/app/490490/Blasters_of_the_Universe",
@@ -41,7 +36,7 @@ export default function BlastersOfTheUniverse() {
             role="Lead Developer"
             image={image}
             links={links}
-            year="2017 - 2018"
+            year="2017"
         >
             <p className="text-lg text-gray-600">
                 Blasters of the Universe is the first of its kind, bringing the
