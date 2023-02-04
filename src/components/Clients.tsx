@@ -147,13 +147,13 @@ const Clients = forwardRef<HTMLElement>((props, ref) => {
                                         href={client.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="group flex flex-grow justify-center p-8 md:p-4 w-60 h-40 rounded focus-outline focus:outline-blue-500 motion-safe:transition-all"
+                                        className="group flex flex-grow justify-center p-8 md:p-4 w-60 h-40 rounded focus:outline-none"
                                     >
                                         <span className="sr-only">
                                             {client.name}
                                         </span>
                                         <client.logo
-                                            className="aspect-[3/2] text-slate-600 md:group-hover:text-teal-400 md:group-hover:scale-110 motion-safe:transition-all"
+                                            className="aspect-[3/2] text-slate-600 md:group-hover:text-teal-400 md:group-hover:scale-110 md:group-focus:text-teal-400 md:group-focus:scale-110 motion-safe:transition-all"
                                             aria-hidden="true"
                                         />
                                     </Link>
