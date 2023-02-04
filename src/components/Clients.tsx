@@ -153,7 +153,7 @@ const Clients = forwardRef<HTMLElement>((props, ref) => {
                                             {client.name}
                                         </span>
                                         <client.logo
-                                            className="aspect-[3/2] text-slate-600 md:group-hover:text-slate-800 md:group-hover:scale-110 motion-safe:transition-all"
+                                            className="aspect-[3/2] text-slate-600 md:group-hover:text-teal-500 md:group-hover:scale-110 motion-safe:transition-all"
                                             aria-hidden="true"
                                         />
                                     </Link>

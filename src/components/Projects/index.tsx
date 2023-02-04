@@ -53,11 +53,9 @@ export default function Project({
 
             <div className="flex flex-col p-6 pb-2 mD:p-8 mD:pb-4 space-y-4 bg-white">
                 <div>
-                    <h3 className="text-2xl md:text-3xl font-semibold">
-                        {name}
-                    </h3>
+                    <h3 className="text-2xl md:text-3xl font-bold">{name}</h3>
                     {role && (
-                        <p className="text-lg md:text-xl text-gray-500 font-bold">
+                        <p className="text-lg md:text-xl text-gray-500 font-semibold">
                             {role}
                         </p>
                     )}
@@ -65,7 +63,7 @@ export default function Project({
                 {children}
                 <div className="flex flex-row flex-wrap gap-x-2 items-center justify-between">
                     {year ? (
-                        <p className="text-lg md:text-xl text-gray-500 font-bold">
+                        <p className="text-lg md:text-xl text-gray-500 font-semibold">
                             {year}
                         </p>
                     ) : (
@@ -82,7 +80,7 @@ export default function Project({
                                             href={link.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-gray-600 focus-outline focus:ring-blue-500 motion-safe:transition-all"
+                                            className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-teal-500 focus-outline focus:ring-teal-500 motion-safe:transition-all"
                                         >
                                             <span className="sr-only">
                                                 {link.name}
