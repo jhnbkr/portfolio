@@ -136,7 +136,7 @@ function FlyoutNavigation() {
                                                                 location
                                                                 ? "bg-gray-100 text-gray-900"
                                                                 : "text-gray-600 hover:bg-gray-50 hover:text-gray-900",
-                                                            "group flex items-center px-2 py-2 text-xl font-medium rounded-md focus-outline focus:ring-blue-500 motion-safe:transition-all"
+                                                            "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-blue-500 motion-safe:transition-all"
                                                         )}
                                                         onClick={() =>
                                                             setIsOpen(false)
@@ -197,7 +197,7 @@ function StaticNavigation() {
                                                 link.location == location
                                                     ? "bg-gray-100 text-gray-900"
                                                     : "text-gray-600 hover:bg-gray-50 hover:text-gray-900",
-                                                "group flex items-center px-2 py-2 text-xl font-medium rounded-md focus-outline focus:ring-blue-500 motion-safe:transition-all"
+                                                "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-blue-500 motion-safe:transition-all"
                                             )}
                                         >
                                             <link.icon

@@ -25,20 +25,20 @@ export default function CapitalOneMarchMadness() {
             links={links}
             year="2020"
         >
-            <p className="text-xl text-gray-600">
-                A friendly competition between you and{" "}
-                <span className="whitespace-nowrap">Charles Barkley</span>{" "}
-                &#8212;{" "}
-                <span className="italic">
-                    &quot;Hello friend. Chuck is my name and H.O.R.S.E. is my
-                    game. I sure hope you&apos;ve been practicing&quot;.
-                </span>
+            <p className="text-lg md:text-xl text-gray-600">
+                Challenge former NBA-great{" "}
+                <span className="whitespace-nowrap">Charles Barkley</span> to a
+                classic 16-bit style game of H.O.R.S.E.
             </p>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 Clocking in under 3MB this instant game can be embedded just
-                about anywhere on the web. Built using native web technologies
-                it is incredibly performant, even on the most constrained mobile
-                devices.
+                about anywhere on the web. Built using HTML5 it is incredibly
+                performant, even on the most constrained mobile devices.
+            </p>
+            <p className="text-lg md:text-xl text-gray-600">
+                Give it a try! It&apos;s not easy, but I promise you{" "}
+                <span className="italic">can</span> beat Chuck. Best played on a
+                mobile device.
             </p>
         </Project>
     );

@@ -136,7 +136,7 @@ const Clients = forwardRef<HTMLElement>((props, ref) => {
         >
             <div className="border-b border-gray-200">
                 <div className="flex flex-col justify-center mx-auto md:max-w-5xl px-6 py-10 md:px-8 md:py-16 space-y-6 md:space-y-8">
-                    <h2 className="text-4xl md:text-5xl md:mb-6 font-bold tracking-tight text-center">
+                    <h2 className="text-4xl md:text-5xl mb-8 font-bold tracking-tight text-center">
                         I&apos;ve partnered with some great people
                     </h2>
                     <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
@@ -147,7 +147,7 @@ const Clients = forwardRef<HTMLElement>((props, ref) => {
                                         href={client.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="group flex flex-grow justify-center p-4 w-60 h-40 rounded focus-outline focus:outline-blue-500 motion-safe:transition-all"
+                                        className="group flex flex-grow justify-center p-8 md:p-4 w-60 h-40 rounded focus-outline focus:outline-blue-500 motion-safe:transition-all"
                                     >
                                         <span className="sr-only">
                                             {client.name}

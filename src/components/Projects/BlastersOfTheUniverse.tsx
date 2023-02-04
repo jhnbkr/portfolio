@@ -38,12 +38,12 @@ export default function BlastersOfTheUniverse() {
             links={links}
             year="2016 - 2018"
         >
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 Blasters of the Universe is a first of its kind VR bullet hell
                 game with intense gameplay that is heavily reliant on physical
                 movement.
             </p>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 I helped lead the development effort and contributed to many
                 areas of the game; editor tools, enemy behavior, gameplay
                 programming, cross platform integration, PlayStation VR port,

@@ -53,9 +53,11 @@ export default function Project({
 
             <div className="flex flex-col p-6 pb-2 mD:p-8 mD:pb-4 space-y-4 bg-white">
                 <div>
-                    <h3 className="text-3xl font-semibold">{name}</h3>
+                    <h3 className="text-2xl md:text-3xl font-semibold">
+                        {name}
+                    </h3>
                     {role && (
-                        <p className="text-xl text-gray-500 font-bold">
+                        <p className="text-lg md:text-xl text-gray-500 font-bold">
                             {role}
                         </p>
                     )}
@@ -63,7 +65,7 @@ export default function Project({
                 {children}
                 <div className="flex flex-row flex-wrap gap-x-2 items-center justify-between">
                     {year ? (
-                        <p className="text-xl text-gray-500 font-bold">
+                        <p className="text-lg md:text-xl text-gray-500 font-bold">
                             {year}
                         </p>
                     ) : (

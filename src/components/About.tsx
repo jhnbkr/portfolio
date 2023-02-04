@@ -57,7 +57,7 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                     <Link
                         href="/#intro"
                         scroll={false}
-                        className="hidden md:inline-flex items-center bg-slate-500 hover:bg-slate-600 rounded-full border-none px-6 py-2 text-white text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-blue-500 motion-safe:transition-all"
+                        className="hidden md:inline-flex items-center bg-slate-500 hover:bg-slate-600 rounded-full border-none px-6 py-2 text-white text-lg md:text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-blue-500 motion-safe:transition-all"
                     >
                         Learn more
                         <DownArrowIcon
@@ -73,20 +73,20 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                         <h2 className="text-4xl md:text-5xl md:mb-6 font-bold tracking-tight text-center">
                             Nice to meet you!
                         </h2>
-                        <p className="text-xl md:text-2xl text-gray-600">
+                        <p className="text-lg md:text-xl text-gray-600">
                             Growing up I was the kid who asked questions. A lot
                             of questions. Today I&apos;m not much different. My
                             never ending curiosity to understand how everything
                             works and my passion for games got me started
                             programming in my early teens.
                         </p>
-                        <p className="text-xl md:text-2xl text-gray-600">
+                        <p className="text-lg md:text-xl text-gray-600">
                             I excel at understanding situations and
                             collaborating to develop solutions big and small. My
                             development experiences include; backend, frontend,
                             application, games, AR/VR, and more.
                         </p>
-                        <p className="text-xl md:text-2xl text-gray-600">
+                        <p className="text-lg md:text-xl text-gray-600">
                             Currently, I am a freelance software developer based
                             in the Toronto area.
                         </p>

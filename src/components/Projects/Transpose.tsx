@@ -37,19 +37,19 @@ export default function Transpose() {
             links={links}
             year="2018 - 2019"
         >
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 Transpose is a dreamlike and gravity-defying time manipulation
                 puzzle game in VR. It challenges players to solve increasingly
                 complex physics puzzles as they explore an extraordinarily
                 surreal world.
             </p>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 Our team had a lot of interesting technical and design
                 challenges to solve with Transpose. Omni directional locomotion,
                 body tracking through inverse kinematics, time manipulation,
                 physics warping, and player comfort to name a few.
             </p>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 My contributions included; project architecture, pipeline &
                 process, editor tools, state management, cross platform support,
                 PlayStation 4 port, UI, audio programming and more.

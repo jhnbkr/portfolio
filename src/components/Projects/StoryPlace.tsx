@@ -37,15 +37,19 @@ export default function StoryPlace() {
             links={links}
             year="2018 - 2022"
         >
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 Storyplace is a social platform where you can write, read or
                 listen to stories from people all around the world.
             </p>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600">
                 In my role I architected and developed StoryPlace&apos;s backend
-                services and helped shape the platform to where it is today. The
-                API is performant, platform agnostic, geographically aware, and
-                highly scalable.
+                services and helped shape the platform to where it is today.
+                StoryPlace web, iOS, and Android are all powered by a unified
+                API that is performant, GIS enabled, and highly scalable.
+            </p>
+            <p className="text-lg md:text-xl text-gray-600">
+                We also developed a dashboard with many custom tools to monitor,
+                manage, and moderate the platform.
             </p>
         </Project>
     );
