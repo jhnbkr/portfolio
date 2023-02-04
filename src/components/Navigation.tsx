@@ -136,7 +136,7 @@ function FlyoutNavigation() {
                                                                 location
                                                                 ? "bg-gray-100 text-gray-900"
                                                                 : "text-gray-600 hover:bg-gray-50 hover:text-gray-900",
-                                                            "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-teal-500 motion-safe:transition-all"
+                                                            "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-teal-400 motion-safe:transition-all"
                                                         )}
                                                         onClick={() =>
                                                             setIsOpen(false)
@@ -146,8 +146,8 @@ function FlyoutNavigation() {
                                                             className={classNames(
                                                                 link.location ==
                                                                     location
-                                                                    ? "text-teal-500"
-                                                                    : "text-gray-400 group-hover:text-teal-500",
+                                                                    ? "text-teal-400"
+                                                                    : "text-gray-400 group-hover:text-teal-400",
                                                                 "mr-4 flex-shrink-0 h-8 w-8 motion-safe:transition-all"
                                                             )}
                                                             aria-hidden="true"
@@ -197,14 +197,14 @@ function StaticNavigation() {
                                                 link.location == location
                                                     ? "bg-gray-100 text-gray-900"
                                                     : "text-gray-600 hover:bg-gray-50 hover:text-gray-900",
-                                                "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-teal-500 motion-safe:transition-all"
+                                                "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-teal-400 motion-safe:transition-all"
                                             )}
                                         >
                                             <link.icon
                                                 className={classNames(
                                                     link.location == location
-                                                        ? "text-teal-500"
-                                                        : "text-gray-400 group-hover:text-teal-500 motion-safe:transition-all",
+                                                        ? "text-teal-400"
+                                                        : "text-gray-400 group-hover:text-teal-400 motion-safe:transition-all",
                                                     "mr-4 flex-shrink-0 h-8 w-8"
                                                 )}
                                                 aria-hidden="true"

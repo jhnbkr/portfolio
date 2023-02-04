@@ -23,7 +23,7 @@ export default function CodeIcon({
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 d="M17.25,6.75l5.25,5.25-5.25,5.25m-10.5,0L1.5,12,6.75,6.75"
-                style={{ fill: "none", stroke: "#00b6a6" }}
+                style={{ fill: "none", stroke: "#1cd2be" }}
             />
         </svg>
     );
