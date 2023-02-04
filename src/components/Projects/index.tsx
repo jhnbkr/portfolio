@@ -39,14 +39,17 @@ export default function Project({
                 href={image.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group scroll-mb-16"
+                className="relative group scroll-mb-16"
             >
+                <span className="absolute opacity-0 md:group-hover:opacity-100 group-focus:opacity-100 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-3xl md:text-4xl font-bold text-white motion-safe:transition-all">
+                    View Project
+                </span>
                 <div className="overflow-hidden">
                     <Image
                         src={image.data}
                         alt={image.alt}
                         placeholder="blur"
-                        className="md:group-hover:scale-105 group-focus:scale-105 motion-safe:transition-all"
+                        className="md:group-hover:blur-sm md:group-hover:brightness-50 md:group-hover:scale-105 group-focus:blur-sm group-focus:scale-105 md:group-focus:brightness-50 motion-safe:transition-all"
                     />
                 </div>
             </Link>
