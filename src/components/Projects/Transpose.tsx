@@ -52,7 +52,7 @@ export default function Transpose() {
             <p className="text-lg md:text-xl text-gray-600">
                 My contributions included; project architecture, pipeline &
                 process, editor tools, state management, cross platform support,
-                PlayStation 4 port, UI, audio programming and more.
+                PlayStation VR port, UI, audio programming and more.
             </p>
         </Project>
     );
