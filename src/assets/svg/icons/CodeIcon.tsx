@@ -17,12 +17,12 @@ export default function CodeIcon({
             <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="M14.25,3.75l-4.5,16.5"
+                d="M13.93,4.93l-3.86,14.14"
             />
             <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="M17.25,6.75l5.25,5.25-5.25,5.25m-10.5,0L1.5,12,6.75,6.75"
+                d="M16.5,7.5l4.5,4.5-4.5,4.5m-9,0L3,12,7.5,7.5"
                 style={{ fill: "none", stroke: "#00b6a5" }}
             />
         </svg>
