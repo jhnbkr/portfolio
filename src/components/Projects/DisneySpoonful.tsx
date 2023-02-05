@@ -27,8 +27,8 @@ export default function Spoonful() {
         >
             <p className="text-lg md:text-xl text-gray-600">
                 I joined the Disney Interactive team to rethink their Family Fun
-                platform. An online resource for parents of arts & crafts,
-                recipes, and party ideas.
+                platform. An online resource for parents filled with arts,
+                crafts, recipes, and party ideas.
             </p>
             <p className="text-lg md:text-xl text-gray-600">
                 Spoonful was the first platform at Disney to be built on a new
