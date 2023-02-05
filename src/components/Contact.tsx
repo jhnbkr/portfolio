@@ -14,7 +14,7 @@ const Contact = forwardRef<HTMLElement>((props, ref) => {
                     <Link
                         href="mailto:mail@johnbaker.ca"
                         scroll={false}
-                        className="inline-flex items-center bg-teal-400 hover:bg-teal-500 rounded-full border-none px-6 py-2 text-white text-lg md:text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-white motion-safe:transition-all"
+                        className="inline-flex items-center bg-teal-500 hover:bg-teal-600 rounded-full border-none px-6 py-2 text-white text-lg md:text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-white motion-safe:transition-all"
                     >
                         Contact Me
                         <EnvelopeIcon

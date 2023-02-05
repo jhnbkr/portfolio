@@ -83,7 +83,7 @@ export default function Project({
                                             href={link.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-teal-400 focus-outline focus:ring-teal-400 motion-safe:transition-all"
+                                            className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-teal-500 focus-outline focus:ring-teal-500 motion-safe:transition-all"
                                         >
                                             <span className="sr-only">
                                                 {link.name}
