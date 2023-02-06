@@ -44,7 +44,7 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                         />
                     </div>
                     <div className="text-center">
-                        <h2 className="text-4xl md:text-5xl mb-4 font-bold tracking-tight">
+                        <h2 className="heading mb-4">
                             Hello, I’m{" "}
                             <span className="underline whitespace-nowrap">
                                 John Baker
@@ -54,25 +54,25 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                             Software Developer
                         </p>
                     </div>
-                    <Link
-                        href="/#intro"
-                        scroll={false}
-                        className="hidden md:inline-flex items-center bg-teal-500 hover:bg-teal-600 rounded-full border-none px-6 py-2 text-white text-lg md:text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-white motion-safe:transition-all"
-                    >
-                        Learn more
-                        <DownArrowIcon
-                            className="ml-2 -mr-1 h-6 w-6"
-                            aria-hidden="true"
-                        />
-                    </Link>
+                    <div className="hidden md:block">
+                        <Link
+                            href="/#intro"
+                            scroll={false}
+                            className="btn-primary"
+                        >
+                            Learn more
+                            <DownArrowIcon
+                                className="ml-2 -mr-1 h-6 w-6"
+                                aria-hidden="true"
+                            />
+                        </Link>
+                    </div>
                 </div>
             </div>
             <section id="intro" className="scroll-mt-16">
                 <div className="border-b border-gray-200">
-                    <div className="flex flex-col justify-center mx-auto md:max-w-5xl px-6 py-10 md:px-8 md:py-16 space-y-6 md:space-y-8">
-                        <h2 className="text-4xl md:text-5xl md:mb-6 font-bold tracking-tight text-center">
-                            Nice to meet you!
-                        </h2>
+                    <div className="wrapper">
+                        <h2 className="heading">Nice to meet you!</h2>
                         <p className="text-lg md:text-xl text-gray-600">
                             Growing up I was the kid who asked questions. A lot
                             of questions. Today I&apos;m not much different. My

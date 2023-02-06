@@ -19,10 +19,8 @@ const Work = forwardRef<HTMLElement>((props, ref) => {
             className="scroll-mt-16"
         >
             <div className="bg-slate-100 border-b border-gray-200">
-                <div className="flex flex-col justify-center mx-auto md:max-w-5xl px-6 py-10 md:px-8 md:py-16 space-y-6 md:space-y-12">
-                    <h2 className="text-4xl md:text-5xl md:mb-6 font-bold tracking-tight text-center">
-                        Check out my work
-                    </h2>
+                <div className="wrapper md:space-y-12">
+                    <h2 className="heading">Check out my work</h2>
                     <p className="text-lg md:text-xl text-gray-600">
                         Over my 15 year career I&apos;ve launched countless
                         sites, apps, and games with many incredible teams. Below

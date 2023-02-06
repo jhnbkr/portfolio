@@ -135,8 +135,8 @@ const Clients = forwardRef<HTMLElement>((props, ref) => {
             className="scroll-mt-16"
         >
             <div className="border-b border-gray-200">
-                <div className="flex flex-col justify-center mx-auto md:max-w-5xl px-6 py-10 md:px-8 md:py-16 space-y-6 md:space-y-8">
-                    <h2 className="text-4xl md:text-5xl mb-8 font-bold tracking-tight text-center">
+                <div className="wrapper md:space-y-12">
+                    <h2 className="heading">
                         I&apos;ve partnered with some great people
                     </h2>
                     <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
