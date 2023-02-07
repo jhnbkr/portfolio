@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
             </style>
             <NavigationProvider>
                 <Navigation />
-                <div className="flex flex-1 flex-col md:pl-64">
+                <div className="flex flex-1 flex flex-col md:pl-64">
                     <Header />
                     <main className="flex-1">
                         <Component {...pageProps} />

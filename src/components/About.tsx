@@ -50,9 +50,9 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                                 John Baker
                             </span>
                         </h2>
-                        <p className="text-2xl md:text-3xl text-gray-600 font-semibold">
+                        <h3 className="text-2xl md:text-3xl text-gray-600 font-semibold">
                             Software Developer
-                        </p>
+                        </h3>
                     </div>
                     <div className="hidden md:block">
                         <Link

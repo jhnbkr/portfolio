@@ -6,10 +6,10 @@ export default function Header() {
     const { setIsOpen } = useNavigation();
 
     return (
-        <header className="sticky w-full flex md:hidden top-0 z-10 h-16 items-center justify-between bg-white border-b border-gray-200 px-2 py-2">
+        <header className="print:hidden sticky w-full flex md:hidden top-0 z-10 h-16 items-center justify-between bg-white border-b border-gray-200 px-2 py-2">
             <button
                 type="button"
-                className="inline-flex h-12 w-12 items-center justify-center rounded-md text-gray-600 hover:text-gray-900 focus-outline"
+                className="inline-flex h-12 w-12 items-center justify-center rounded-md text-gray-600 hover:text-gray-900 focus-outline motion-safe:transition-all"
                 onClick={() => setIsOpen(true)}
             >
                 <span className="sr-only">Open sidebar</span>

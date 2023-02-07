@@ -4,7 +4,7 @@
 
 @layer components {
     .btn-primary {
-        @apply inline-flex items-center bg-teal-500 hover:bg-teal-600 rounded-full border-none px-6 py-2 text-white text-lg md:text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:ring-white motion-safe:transition-all;
+        @apply inline-flex items-center border-none bg-teal-500 hover:bg-teal-600 rounded-lg px-6 py-2 text-white text-lg md:text-xl font-medium shadow-lg hover:cursor-pointer focus-outline focus:outline-offset-4 focus:outline-teal-500 motion-safe:transition-all;
     }
 
     .heading {
@@ -18,6 +18,6 @@
     }
 
     .focus-outline {
-        @apply ring-offset-transparent focus:outline-none focus:ring-2 focus:ring-offset-1;
+        @apply focus:outline-2 focus:outline-offset-4 outline-teal-500;
     }
 }

@@ -47,7 +47,7 @@ export default function Footer() {
                                 href={link.href}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-teal-500 focus-outline focus:ring-teal-500 motion-safe:transition-all"
+                                className="flex items-center px-2 py-2 rounded-md text-gray-400 hover:text-teal-500 focus-outline motion-safe:transition-all"
                             >
                                 <span className="sr-only">{link.name}</span>
                                 <link.icon

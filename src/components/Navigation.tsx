@@ -43,13 +43,13 @@ const links: NavigationLink[] = [
         anchor: true,
         icon: BriefcaseIcon,
     },
-    // {
-    //     location: "resume",
-    //     name: "Resume",
-    //     url: "/resume",
-    //     anchor: false,
-    //     icon: DocumentIcon,
-    // },
+    {
+        location: "resume",
+        name: "Resume",
+        url: "/resume",
+        anchor: false,
+        icon: DocumentIcon,
+    },
 ];
 
 export default function Navigation() {
@@ -93,7 +93,7 @@ function FlyoutNavigation() {
                         leaveFrom="translate-x-0"
                         leaveTo="-translate-x-full"
                     >
-                        <Dialog.Panel className="relative flex w-full max-w-xs flex-1 flex-col bg-white">
+                        <Dialog.Panel className="relative flex w-full max-w-xs flex-1 flex flex-col bg-white">
                             <Transition.Child
                                 as={Fragment}
                                 enter="ease-in-out duration-300"
@@ -103,10 +103,10 @@ function FlyoutNavigation() {
                                 leaveFrom="opacity-100"
                                 leaveTo="opacity-0"
                             >
-                                <div className="absolute top-0 right-0 -mr-12 pt-2">
+                                <div className="absolute top-0 right-0 -mr-12 pt-4">
                                     <button
                                         type="button"
-                                        className="ml-1 flex h-10 w-10 items-center justify-center rounded-full focus-outline focus:ring-white motion-safe:transition-all"
+                                        className="ml-1 flex h-8 w-8 items-center justify-center rounded-full focus-outline focus:outline-white motion-safe:transition-all"
                                         onClick={() => setIsOpen(false)}
                                     >
                                         <span className="sr-only">
@@ -136,7 +136,7 @@ function FlyoutNavigation() {
                                                                 location
                                                                 ? "bg-gray-100 text-gray-900"
                                                                 : "text-gray-600 hover:bg-gray-50 hover:text-gray-900",
-                                                            "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-teal-500 motion-safe:transition-all"
+                                                            "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline motion-safe:transition-all"
                                                         )}
                                                         onClick={() =>
                                                             setIsOpen(false)
@@ -178,9 +178,9 @@ function StaticNavigation() {
     const { location } = useNavigation();
 
     return (
-        <div className="hidden md:fixed md:inset-y-0 md:flex md:w-64 md:flex-col md:shadow-lg">
-            <div className="flex min-h-0 flex-1 flex-col border-r border-gray-200 bg-white">
-                <div className="flex flex-1 flex-col overflow-y-auto pt-5 pb-4">
+        <div className="hidden md:fixed md:inset-y-0 md:flex md:w-64 md:flex flex-col md:shadow-lg">
+            <div className="flex min-h-0 flex-1 flex flex-col border-r border-gray-200 bg-white">
+                <div className="flex flex-1 flex flex-col overflow-y-auto pt-5 pb-4">
                     <div className="flex flex-shrink-0 items-center px-4 space-x-4">
                         <CodeIcon className="h-8 w-8" aria-hidden="true" />
                         <h1 className="text-xl font-semibold">John Baker</h1>
@@ -197,7 +197,7 @@ function StaticNavigation() {
                                                 link.location == location
                                                     ? "bg-gray-100 text-gray-900"
                                                     : "text-gray-600 hover:bg-gray-50 hover:text-gray-900",
-                                                "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline focus:ring-teal-500 motion-safe:transition-all"
+                                                "group flex items-center px-2 py-2 text-lg md:text-xl font-medium rounded-md focus-outline motion-safe:transition-all"
                                             )}
                                         >
                                             <link.icon

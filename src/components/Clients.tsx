@@ -147,7 +147,7 @@ const Clients = forwardRef<HTMLElement>((props, ref) => {
                                         href={client.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="group flex flex-grow justify-center p-8 md:p-4 w-60 h-40 rounded focus:outline-none"
+                                        className="group flex flex-grow justify-center p-8 md:p-4 w-60 h-40 rounded focus-outline"
                                     >
                                         <span className="sr-only">
                                             {client.name}
