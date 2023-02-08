@@ -11,22 +11,22 @@ import { useNavigation } from "context/NavigationContext";
 export default function Home() {
     const { setLocation } = useNavigation();
 
-    const sectionRefs = useRef<(HTMLElement | null)[]>([]);
-    function appendSectionRef(section: HTMLElement | null) {
-        sectionRefs.current.push(section);
+    const refs = useRef<(HTMLElement | null)[]>([]);
+    function appendRef(element: HTMLElement | null) {
+        refs.current.push(element);
     }
 
     useEffect(() => {
         const triggers: ScrollTrigger[] = [];
-        sectionRefs.current.forEach((section) => {
-            if (!section || !section.dataset.location) {
+        refs.current.forEach((ref) => {
+            if (!ref || !ref.dataset.location) {
                 return;
             }
 
-            const location: string = section.dataset.location;
+            const location: string = ref.dataset.location;
             triggers.push(
                 ScrollTrigger.create({
-                    trigger: section,
+                    trigger: ref,
                     start: "top center",
                     onEnter: () => {
                         setLocation(location);
@@ -43,17 +43,17 @@ export default function Home() {
                 trigger.kill();
             });
         };
-    }, [setLocation, sectionRefs]);
+    }, [setLocation, refs]);
 
     return (
         <>
             <Head>
                 <title>John Baker</title>
             </Head>
-            <About ref={(section) => appendSectionRef(section)} />
-            <Work ref={(section) => appendSectionRef(section)} />
-            <Clients ref={(section) => appendSectionRef(section)} />
-            <Contact ref={(section) => appendSectionRef(section)} />
+            <About ref={(element) => appendRef(element)} />
+            <Work ref={(element) => appendRef(element)} />
+            <Clients ref={(element) => appendRef(element)} />
+            <Contact ref={(element) => appendRef(element)} />
         </>
     );
 }

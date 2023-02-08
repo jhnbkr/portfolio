@@ -185,7 +185,7 @@ const experience: Experience[] = [
         },
         period: "Sep 2011 - Apr 2012",
         details: [
-            "Lead small team of developers where we shipped; Toronto Standard, NayaMed, and a invetory management system for Lastman's Bad Boy Superstore.",
+            "Lead small team of developers where we shipped; Toronto Standard, NayaMed, and a inventory management system for Lastman's Bad Boy Superstore.",
             "Developed a custom PHP MVC framework using ActiveRecord that was used in many of our projects.",
         ],
     },
