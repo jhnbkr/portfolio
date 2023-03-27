@@ -120,15 +120,6 @@ const skills: Skill[] = [
 
 const experience: Experience[] = [
     {
-        role: "Freelance Software Developer",
-        period: "Sep 2007 - Present",
-        details: [
-            "Developed sites, services, games, and applications for clients around the world.",
-            "Integrate and collaborate with client teams by becoming a member myself.",
-            "Helped design and build a CMS for Disney properties, contributed to development of Loblaws' first online grocery ordering platform, and Harley Davidson's highly anticipated Project Livewire launch.",
-        ],
-    },
-    {
         role: "Technical Director",
         company: {
             name: "Transitional Forms",
