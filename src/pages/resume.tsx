@@ -129,7 +129,19 @@ const experience: Experience[] = [
         ],
     },
     {
-        role: "Director of Technology",
+        role: "Technical Director",
+        company: {
+            name: "Transitional Forms",
+            url: "https://transforms.ai",
+        },
+        period: "Feb 2023 - Present",
+        details: [
+            "Leading development of the next generation in real time synthetic media.",
+            "Working extensively with emerging AI technologies.",
+        ],
+    },
+    {
+        role: "Technical Director",
         company: {
             name: "The Young Astronauts",
             url: "https://www.theyoungastronauts.com",
