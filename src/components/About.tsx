@@ -86,10 +86,6 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                             development experiences include; backend, frontend,
                             application, games, AR/VR, and more.
                         </p>
-                        <p className="text-lg md:text-xl text-gray-600">
-                            Currently, I am a freelance software developer based
-                            in the Toronto area.
-                        </p>
                     </div>
                 </div>
             </section>
