@@ -212,7 +212,6 @@ const education: Education[] = [
         },
         period: "Sep 2007 - Apr 2009",
         details: [
-            "Completed 69/141 credit hours towards Bachelor of Engineering.",
             "Teacher assistant for Introduction to Programming for Engineers.",
         ],
     },
