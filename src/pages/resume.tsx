@@ -120,6 +120,14 @@ const skills: Skill[] = [
 
 const experience: Experience[] = [
     {
+        role: "Freelance Software Developer",
+        period: "Sep 2007 - Present",
+        details: [
+            "Developed sites, services, games, and applications for clients around the world.",
+            "Integrate and collaborate with client teams by becoming a member myself.",
+        ],
+    },
+    {
         role: "Technical Director",
         company: {
             name: "Transitional Forms",
