@@ -6,7 +6,7 @@ import GoogleDesign from "components/Projects/GoogleDesign";
 import HDReye from "components/Projects/HDReye";
 import Loblaws from "components/Projects/Loblaws";
 import MusiCounts from "components/Projects/MusiCounts";
-import StoryPlace from "components/Projects/StoryPlace";
+import Storyplace from "components/Projects/Storyplace";
 import Transpose from "components/Projects/Transpose";
 import Spoonful from "./Projects/DisneySpoonful";
 
@@ -27,7 +27,7 @@ const Work = forwardRef<HTMLElement>((props, ref) => {
                         are a handful of my favorite and more recent projects.
                     </p>
                     <GoogleDesign />
-                    <StoryPlace />
+                    <Storyplace />
                     <HDReye />
                     <MusiCounts />
                     <CapitalOneMarchMadness />

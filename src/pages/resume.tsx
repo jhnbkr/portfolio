@@ -136,7 +136,7 @@ const experience: Experience[] = [
         period: "Apr 2019 - Jul 2022",
         details: [
             "Oversaw and directly contributed to the success of our development team.",
-            "Shipped numerous products for our clients; StoryPlace, Dalia Empower Academy, MusiCounts, SURF and more.",
+            "Shipped numerous products for our clients; Storyplace, Dalia Empower Academy, MusiCounts, SURF and more.",
             "Developed several in house products used in our projects including an image management service.",
         ],
     },

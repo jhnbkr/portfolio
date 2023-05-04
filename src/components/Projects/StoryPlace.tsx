@@ -1,12 +1,12 @@
-import StoryPlaceImage from "assets/images/storyplace.jpg";
+import StoryplaceImage from "assets/images/storyplace.jpg";
 import AppleIcon from "assets/svg/icons/AppleIcon";
 import GlobeIcon from "assets/svg/icons/GlobeIcon";
 import GoogleIcon from "assets/svg/icons/GoogleIcon";
 import Project, { ProjectImage, ProjectLink } from "components/Projects";
 
 const image: ProjectImage = {
-    data: StoryPlaceImage,
-    alt: "StoryPlace",
+    data: StoryplaceImage,
+    alt: "Storyplace",
     url: "https://www.storyplace.com",
 };
 
@@ -28,10 +28,10 @@ const links: ProjectLink[] = [
     },
 ];
 
-export default function StoryPlace() {
+export default function Storyplace() {
     return (
         <Project
-            name="StoryPlace"
+            name="Storyplace"
             role="Lead Developer"
             image={image}
             links={links}
@@ -42,9 +42,9 @@ export default function StoryPlace() {
                 listen to stories from people all around the world.
             </p>
             <p className="text-lg md:text-xl text-gray-600">
-                In my role I architected and developed StoryPlace&apos;s backend
+                In my role I architected and developed Storyplace&apos;s backend
                 services and helped shape the platform to where it is today.
-                StoryPlace web, iOS, and Android are all powered by a unified
+                Storyplace web, iOS, and Android are all powered by a unified
                 API that is performant, GIS enabled, and highly scalable.
             </p>
             <p className="text-lg md:text-xl text-gray-600">

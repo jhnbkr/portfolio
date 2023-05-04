@@ -43,10 +43,6 @@ export default function GoogleDesign() {
                 principles. Hundreds of uniquely designed pages were translated
                 into the new design system through a complex migration pipeline.
             </p>
-            <p className="text-lg md:text-xl text-gray-600">
-                This new experience will be available to the public in the near
-                future.
-            </p>
         </Project>
     );
 }
